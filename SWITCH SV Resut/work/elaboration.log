@@ -1,0 +1,56 @@
+Riviera-PRO 2023.04.112.8911(Linux64) 2024-08-28 03:12:52
+
+Elaboration top modules:
+Verilog Module                tb
+SystemVerilog Class           test
+SystemVerilog Class           *base_class
+SystemVerilog Class           env
+SystemVerilog Class           driver
+SystemVerilog Class           monitor
+SystemVerilog Class           generator
+SystemVerilog Class           scoreboard
+SystemVerilog Class           \std::mailbox#(singular) \
+SystemVerilog Class           switch_item
+SystemVerilog Class           std::semaphore
+
+
+------------------------------------------------------------------------------------------
+Verilog Module             | Library | Info | Compiler Version      | Compilation Options
+------------------------------------------------------------------------------------------
+tb                         | work    |      | 2023.04.112 (Linux64) | -timescale 1ns/1ns
+switch                     | work    |      | 2023.04.112 (Linux64) | -timescale 1ns/1ns
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+SystemVerilog Interface    | Library | Info | Compiler Version      | Compilation Options
+------------------------------------------------------------------------------------------
+switch_if                  | work    |      | 2023.04.112 (Linux64) | -timescale 1ns/1ns
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+SystemVerilog Class        | Library | Info | Compiler Version      | Compilation Options
+------------------------------------------------------------------------------------------
+test                       | work    |      | 2023.04.112 (Linux64) | -timescale 1ns/1ns
+*base_class                | vl      |      | 2023.04.112 (Linux64) | <unavailable>
+env                        | work    |      | 2023.04.112 (Linux64) | -timescale 1ns/1ns
+driver                     | work    |      | 2023.04.112 (Linux64) | -timescale 1ns/1ns
+monitor                    | work    |      | 2023.04.112 (Linux64) | -timescale 1ns/1ns
+generator                  | work    |      | 2023.04.112 (Linux64) | -timescale 1ns/1ns
+scoreboard                 | work    | SVA  | 2023.04.112 (Linux64) | -timescale 1ns/1ns
+\std::mailbox#(singular) \ | work    |      | 2023.04.112 (Linux64) | -timescale 1ns/1ns
+switch_item                | work    |      | 2023.04.112 (Linux64) | -timescale 1ns/1ns
+std::semaphore             | work    |      | 2023.04.112 (Linux64) | -timescale 1ns/1ns
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+Library                    | Comment
+------------------------------------------------------------------------------------------
+vl                         | Standard Verilog library
+work                       | None
+------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access+r
+
+
+The performance of simulation is reduced. Version EDU Edition
